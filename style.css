@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+img {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+p {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+hr {
+    max-width: 700px;
+    margin: auto;
+}
+
+.back-class {
+    background-color:  yellow;
+  }
+
+#p-toggle-2 {
+    display: none;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-ninja.css">
+    <title>Disappearing Matt Berry</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h4>Disappearing Matt Berry (from The IT Crowd)</h4>
+        <div id="images">
+            <img id="img-1" src="https://imagizer.imageshack.com/v2/320x240q90/922/Ag6qYX.jpg" alt="berry-1">
+            <img id="img-2" src="https://imagizer.imageshack.com/v2/320x240q90/922/Ag6qYX.jpg" alt="berry-2">
+            <img id="img-3" src="https://imagizer.imageshack.com/v2/320x240q90/922/Ag6qYX.jpg" alt="berry-3">
+            <img id="img-4" src="https://imagizer.imageshack.com/v2/320x240q90/922/Ag6qYX.jpg" alt="berry-4">
+            <img id="img-5" src="https://imagizer.imageshack.com/v2/320x240q90/922/Ag6qYX.jpg" alt="berry-5">
+            <img id="img-6" src="https://imagizer.imageshack.com/v2/320x240q90/922/Ag6qYX.jpg" alt="berry-6">
+            <img id="img-7" src="https://imagizer.imageshack.com/v2/320x240q90/922/Ag6qYX.jpg" alt="berry-7">
+            <img id="img-8" src="https://imagizer.imageshack.com/v2/320x240q90/922/Ag6qYX.jpg" alt="berry-8">
+
+            <script>
+                $("#img-1").click(function () {
+                    $("#img-1").fadeToggle("slow,", function () {
+                    });
+                });
+                $("#img-2").click(function () {
+                    $("#img-2").fadeToggle("slow,", function () {
+                    });
+                });
+                $("#img-3").click(function () {
+                    $("#img-3").fadeToggle("slow,", function () {
+                    });
+                });
+                $("#img-4").click(function () {
+                    $("#img-4").fadeToggle("slow,", function () {
+                    });
+                });
+                $("#img-5").click(function () {
+                    $("#img-5").fadeToggle("slow,", function () {
+                    });
+                });
+                $("#img-6").click(function () {
+                    $("#img-6").fadeToggle("slow,", function () {
+                    });
+                });
+                $("#img-7").click(function () {
+                    $("#img-7").fadeToggle("slow,", function () {
+                    });
+                });
+                $("#img-8").click(function () {
+                    $("#img-8").fadeToggle("slow,", function () {
+                    });
+                });
+            </script>
+        </div>
+        <div id="button">
+            <button>Restore</button>
+            <script>
+                $("#button").click(function () {
+                    $("img").show("slow", function () { });
+                });
+            </script>
+        </div>
+    </div>
+</body>
+
+</html>
